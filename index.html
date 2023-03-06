@@ -14,7 +14,7 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive Portfolio Website</title>
+        <title>Masood Ahmed Portfolio</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
@@ -119,7 +119,7 @@
                         
                         <div class="home__data">
                             <h1 class="home__title"> Hi, I'm Masood Ahmed </h1>
-                            <h3 class="home__subtitle"> Software Developer </h3>
+                            <h3 class="home__subtitle"> <span class="multiText">  </span>  </h3>
                             <p class="home__description"> A highly enthusiastic and delighted being who's always on a voyage to discover new knowledge and scout my abilities to acquire great elevations and expertise. </p>
                             <br>
                             <a href="#contact" class="button button--flex">
@@ -543,6 +543,18 @@
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
 
+        <!--===== Typing animation=====-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"> </script>
+        <script>
+            var typingEffect = new Typed(".multiText",{
+                strings : ["Software Developer","Software Developer","3D Designer","UI/UX Designer"],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 50,
+                backDelay: 1500
+            })
+    
+        </script>
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
     </body>
