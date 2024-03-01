@@ -267,7 +267,9 @@ img {
 
 /* Change background header */
 
-
+.body{
+  overflow: hidden;
+}
 /*==================== HOME ====================*/
 .home__container{
   gap: 1rem;
@@ -665,8 +667,7 @@ img {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
-  padding-top: var(--mb-2);
-  padding-left: 2rem;
+  margin-top: 2rem;
 }
 
 .footer__link:hover{
@@ -676,7 +677,7 @@ img {
 
 .footer__socials{
   padding-top: var(--mb-2);
-  padding-left: 2rem;
+  padding-left: 0rem;
 }
 
 .footer__social{
@@ -917,6 +918,10 @@ img {
 
   .home__scroll{
     display: block;
+  }
+
+  .home__scroll-button{
+    padding-left: 0%;
   }
 
   .portfolio__img{
